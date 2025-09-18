@@ -1,5 +1,6 @@
 import requests
 
+
 def get_random_quote():
     """Fetches a random quote from the quotable.io API."""
     try:
@@ -15,4 +16,5 @@ def get_random_quote():
     except requests.exceptions.RequestException as e:
      return f"Error: Could not fetch a quote. Please check your internet connection. Details: {e}"
         
+
 get_random_quote()
