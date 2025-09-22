@@ -1,0 +1,7 @@
+INFO:root:Data successfuly fetched
+INFO:root:parsed data:{'order_id': 'ORD12345', 'customer': {'name': 'Alice Smith', 'email': 'alice.smith@example.com', 'address': {'street': '123 Maple St', 'city': 'Anytown'}}, 'items': [{'product_id': 'PROD001', 'product_name': 'Laptop', 'quantity': 1, 'price': 1200.0}, {'product_id': 'PROD002', 'product_name': 'Wireless Mouse', 'quantity': 1, 'price': 25.5}], 'is_shipped': True}
+INFO:root:Processing Order ID : ORD12345
+INFO:root:customer: Alice Smith from Anytown
+INFO:root:Laptop - $1200.0
+INFO:root:Wireless Mouse - $25.5
+INFO:root:Total order cost: $1225.5
