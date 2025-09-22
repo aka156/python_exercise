@@ -1,0 +1,26 @@
+{
+  "order_id": "ORD12345",
+  "customer": {
+    "name": "Alice Smith",
+    "email": "alice.smith@example.com",
+    "address": {
+      "street": "123 Maple St",
+      "city": "Anytown"
+    }
+  },
+  "items": [
+    {
+      "product_id": "PROD001",
+      "product_name": "Laptop",
+      "quantity": 1,
+      "price": 1200.00
+    },
+    {
+      "product_id": "PROD002",
+      "product_name": "Wireless Mouse",
+      "quantity": 1,
+      "price": 25.50
+    }
+  ],
+  "is_shipped": true
+}
